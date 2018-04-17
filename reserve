@@ -1,4 +1,5 @@
 <html><head> </head><body>
+<meta charset="EUC-KR">
 <img src="img/reserved.jpg"/>
 <form action="action.php" method="post"><label>이름 :<input name="name" type="text" /></label><br /><br /><label>연락처 :<input name="phone" type="text" /></label><br /><br /><label>예약 날짜 :<input name="depart" type="date" /></label> <br /><br />
 <fieldset><legend>세부사항</legend><p>이용시간 :<br><input name="genre" type="radio" checked="checked" value="오전(09:00)"> 오전(09:00)<input name="genre" type="radio" value="오후(12:00)"> 오후(12:00)<input name="genre" type="radio" value="저녁(18:00)"> 저녁(18:00)</p><p>사전 확인 사항 :<br><input name="service[]" type="checkbox" checked="checked" value="비흡연석"> 비흡연석<input name="service[]" type="checkbox" value="창가 쪽"> 창가 쪽<input name="service[]" type="checkbox" value="주차장 이용"> 주차장 이용</p>
